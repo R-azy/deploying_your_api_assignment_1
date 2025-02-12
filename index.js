@@ -15,6 +15,7 @@ app.listen(port, () => {
 });
 require('dotenv').config();
 
+// Access environment variables
 const config = {
   apiKey: process.env.API_KEY,
   serverSecret: process.env.SERVER_SECRET,
